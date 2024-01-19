@@ -1,0 +1,16 @@
+{
+  "platform": "mac",
+  "jdk": ${JAVA_HOME},
+  "executable": "exercise1",
+  "classpath": [
+    "desktop/build/libs/desktop-1.0.jar"
+  ],
+  "mainclass": "com.mygdx.game.DesktopLauncer",
+  "vmargs": [
+    "XstartOnFirstThread"
+  ],
+  "resources": [
+    "assets"
+  ],
+  "output": "out-mac"
+}
